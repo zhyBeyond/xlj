@@ -131,7 +131,7 @@ export default {
 					page: this.page,
 				}
 			}).then((response) => {
-                this.tableData = response.data.data.data
+                this.tableData = response.data.data.data.
                 this.page = response.data.data.currentPage
                 this.total = response.data.data.count
 			})

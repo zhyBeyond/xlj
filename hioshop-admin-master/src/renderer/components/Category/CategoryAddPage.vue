@@ -29,7 +29,7 @@
                         <img v-if="infoForm.img_url" :src="infoForm.img_url" class="image-show">
                         <el-input v-model="infoForm.img_url"></el-input>
                         <!-- <el-upload
-                                class="upload-demo"
+                                class="upload-demo"  
                                 name="file"
                                 :action="qiniuZone"
                                 :on-remove="bannerRemove"

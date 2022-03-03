@@ -224,6 +224,7 @@
 										document.querySelector('.avatar-uploader input').click()
 									} else {
 										this.quill.format('image', false);
+										+9
 									}
 								}
 							}

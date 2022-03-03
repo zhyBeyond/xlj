@@ -6,13 +6,6 @@
             </el-breadcrumb>
         </div>
         <div class="content-main clearfix">
-            <div class="notice">
-                <div class="l">本演示后台数据为演示数据，可以随意操作，系统每5分钟重置一次</div>
-                <div class="r" v-if="resetVision">
-                    <label>重置倒计时：</label>
-                    <countdown class="count" endTime="" :callback="callback" endText="已经结束了"></countdown>
-                </div>
-            </div>
             <div class="header clearfix">
                 <el-card class="box-card card-red">
                     <router-link class="link-color" :to="{ path: '/dashboard/order' }">
@@ -236,30 +229,6 @@
 </script>
 
 <style scoped>
-    .notice{
-        width: 100%;
-        height: 60px;
-        padding: 30px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        background: #ffecd5;
-        margin-bottom: 20px;
-        font-size: 16px;
-        border-radius: 6px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .notice .r{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .count{
-        background: #fff;
-        padding: 10px;
-    }
     .float-right{
         float:right;
     }

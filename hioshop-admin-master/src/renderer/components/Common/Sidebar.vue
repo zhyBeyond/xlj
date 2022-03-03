@@ -10,7 +10,7 @@
 					<i class="fa fa-tachometer"></i>
 					<span>后台主页</span>
 				</el-menu-item>
-				 <el-menu-item index="/dashboard/order">
+				<el-menu-item index="/dashboard/order">
 					<i class="fa fa-large fa-reorder"></i>
 					<span>订单列表</span>
 				</el-menu-item>
